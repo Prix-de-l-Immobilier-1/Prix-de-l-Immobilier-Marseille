@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+#Prix de l’immobilier
+Quelle est l'influence des aménagements sur les prix de l'immobilier à Marseille?
+En termes démographiques, la ville de Marseille est la deuxième ville de France. Elle est de ces villes qui voient, depuis vingt ans, sa population augmenter d’année en année. Selon le site internet de la ville qui tient ses sources de l’INSEE, Marseille acquiert annuellement près de 3 244 habitants. Nous nous sommes intéressées ainsi au prix de l'immobilier à Marseille, les différences de prix selon les arrondissements et leur évolution. Pour ce faire, nous avons utilisé la base de données "Demande de valeurs foncières" (DVF) qui recense l'ensemble des ventes des biens fonciers de ces cinq dernières années en France. Nous avons également utilisé le site d'Euromed qui recense les divers aménagements Euromed dans l'ensemble de la ville et des jeux de données sur les autres aménagements marseillais.
+#Disparités des prix immobiliers entre les arrondissements à Marseille
+Nous avons mis au point ce graphique réalisé sur DataWrapper afin de rendre compte des disparités des prix de l'immobilier qui existent entre les différents arrondissements à Marseille.Pour ce faire, nous avons utilisé les données DVF sur l'évolution du prix de l'immobilier à Marseille. Comme nous pouvons le voir, le 8e arrondissement est l'arrondissement le plus cher : en 2019, le prix médian de vente culmine à plus de 200 000 euros. A l'inverse, le 3e arrondissement de la ville est celui dont la médiane du prix de vente est la plus basse, avec une baisse importante en 2019 : la médiane s'élève alors à un peu plus de 50 000 euros. 
+<iframe title="Évolution du prix des ventes immobilières à Marseille (2014-2019) (Copy)" aria-label="chart" id="datawrapper-chart-TrK9T" src="https://datawrapper.dwcdn.net/TrK9T/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="626"></iframe>
+C'est là que les questions suivantes nous sont parvenues : Quels sont les facteurs de hausse du prix de l'immobilier à Marseille ? Quelle est la raison majeure de la disparité du prix de vente immobilière entre les arrondissements ? Ainsi, nous sommes parties de l'hypothèse suivante : les nouveaux aménagements participent grandement à la hausse du prix de vente immobilière dans le quartier où ils sont construits.
+#Comparaison de l'évolution du prix de vente immobilière entre le 2e et le 3e arrondissement en fonction des aménagements.
+Afin de vérifier notre hypothèse, nous avons décidé de centrer cette étude sur les 2e et 3e arrondissements de Marseille. Nous avons choisi ces deux arrondissements car ils ont connu ces dernières années de nombreux aménagements, notamment avec les aménagements Euromed, considérables. 
+Ce sont deux arrondissements de centre-ville qui présentent de nombreuses similitudes. En ce sens, une étude comparative nous a semblé bénéfique afin de répondre à notre hypothèse. Tout d'abord, voici un tour d'horizon du projet Euromed à Marseille.
+## Le projet EUROMED
+En 1995, Robert Vigouroux, maire de Marseille, lance le programme Euroméditerranée pour la mise en place d’un établissement public d’aménagement. Le programme Euroméditerranée acte 2, en 2007, relance et étend ce projet. Dans ce cadre-là, de nombreuses constructions et rénovations voient le jour, depuis 2014 notamment, permettant la redynamisation de certains quartiers. Nous avons établi une cartographie des constructions EUROMED entre 2014 et 2019 pour rendre compte de l'importance de ces aménagements. Comme nous pouvons le remarquer, ces aménagements concernent les 2e et 3e arrondissements de Marseille. Pour réaliser cette carte, nous avons extrait des données directement depuis le site Euromed.
+<iframe title="Constructions Euromed (Marseille 2014-2019)" aria-label="chart" id="datawrapper-chart-J0qzA" src="https://datawrapper.dwcdn.net/J0qzA/2/" scrolling="no" frameborder="0" style="border: none;" width="550" height="684"></iframe>
+ 
+## Les aménagements du 2e et du 3e arrondissement de Marseille.
+Pour rendre compte des aménagements du 2e du 3e arrondissement à Marseille, nous avons réalisé une autre cartographie, toujours avec DataWrapper, qui recense la plupart des constructions qui ont eu lieu entre 2014 et 2019. Nous pouvons voir que des centres commerciaux, des bureaux, des espaces publics, des musées ou encore des lignes de tramway ont permis une dynamisation de ces quartiers.
+ 
+<iframe title="Aménagements 2ème et 3ème arrondissements de Marseille (2014-2019)" aria-label="chart" id="datawrapper-chart-Pe6mc" src="https://datawrapper.dwcdn.net/Pe6mc/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="552"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+ 
+ 
+<iframe title="Prix médian des ventes immobilières -2ème Arrondissement" aria-label="Interactive line chart" id="datawrapper-chart-LQIAD" src="https://datawrapper.dwcdn.net/LQIAD/3/" scrolling="no" frameborder="0" style="border: none;" width="600" height="400"></iframe>
+ 
+ <iframe title="Prix médian des ventes immobilières -
+3ème Arrondissement" aria-label="Interactive line chart" id="datawrapper-chart-qji6p" src="https://datawrapper.dwcdn.net/qji6p/4/" scrolling="no" frameborder="0" style="border: none;" width="600" height="400"></iframe>
 
-You can use the [editor on GitHub](https://github.com/Prix-de-l-Immobilier-1/Prix-de-l-Immobilier-Marseille/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Prix-de-l-Immobilier-1/Prix-de-l-Immobilier-Marseille/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
